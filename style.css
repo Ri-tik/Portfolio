@@ -374,9 +374,10 @@ footer{
 		box-sizing: border-box;
 	}
 	.model{
-		height: 460px;
+		height: 400px;
 		left: 90%;
 		transform: translateX(-90%);
+		bottom: 500px;
 	}
 	.text-container{
 		top:46%;
@@ -438,6 +439,7 @@ footer{
 	}
 	.model{
 		display: none;
+		bottom: 500px;
 	}
 	.toggle{
 		display: block;
