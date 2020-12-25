@@ -377,7 +377,7 @@ footer{
 		height: 400px;
 		left: 90%;
 		transform: translateX(-90%);
-		bottom: 500px;
+		bottom: 700px;
 	}
 	.text-container{
 		top:46%;
@@ -439,7 +439,7 @@ footer{
 	}
 	.model{
 		display: none;
-		bottom: 500px;
+		bottom: 700px;
 	}
 	.toggle{
 		display: block;
