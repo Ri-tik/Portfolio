@@ -4,6 +4,9 @@
 	<link href="style.css" rel="stylesheet">
     <title>My Portfolio</title>
     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <script>function alertfunc(){
+        alert("Request Captured, I'll Respond To You Soon!")
+    }</script>
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <style>
         body{
@@ -34,8 +37,8 @@
         <p>Hello,</p>
         <p>I&#8217;M Ritik</p>
         <p>CS Student <br> & Developer</p>
-        <button class="hire-btn">Hire me</button>
-        <button class="down-cv">Download CV</button>
+        <button onclick="alertfunc()" class="hire-btn">Hire me</button>
+        <button type="submit" onclick="window.open('CVSample.pdf')" class="down-cv">Download CV</button>
     </div>
 <!--model---------------------->
 <img alt="model" class="model" src="images/model2.png">  
@@ -48,8 +51,8 @@
 		<p>Devolper</p>
 		<p>Hello,My name is Ritik Shukla. I am a CS Student and a Developer. I Like To Build Apllications using Python Language. I am also familiar with other programming languages such as C, C++ & Java and Have basic knowledge of HTML and CSS enough to make websites such as this. I have a plan on learning Javascript and Django for my Python WebApp Project and also want to learn React Native to make Android Applications.</p>
 		<p>I am very interested on making Django Based Web Application Once i finish my courses on Javascript, Django and Data Analysis. So feel free if you want to collaborate or share something with me.</p>
-		<button>Hire Me</button>
-		<button>Download CV</button>
+		<button onclick="alertfunc()">Hire Me</button>
+		<button type="submit" onclick="window.open('CVSample.pdf')">Download CV</button>
 		</div>
 	</div>
     <div class="services ">
@@ -64,22 +67,22 @@
 			<div class="box-1">
 			<span>1</span>
 			<p class="heading">Python Developer</p>
-			<p class="details">After Learning C, Cpp and Java. Now Python is my primary language, I Completed few Pyton courses online and now working to make some project on it.</p>
-			<button>Intermediate</button>
+			<p class="details">After Learning C, Cpp and Java. Now Python is my primary language, I Completed few Python courses online and now working to make some project on it.</p>
+			<button><b>Intermediate</b></button>
 			</div>
 	   <!--2------------->
 			<div class="box-2">
 			<span>2</span>
 			<p class="heading">Data Science</p>
 			<p class="details">Still a begginer in Data Science, Once i get a good understanding in Algoritms and completing few more courses on Data Science/Analysis, I will try to make few projects on it.</p>
-			<button>Begginer</button>
+			<button><b>Begginer</b></button>
 			</div>
 		<!--3------------->
 			<div class="box-3">
 			<span>3</span>
 			<p class="heading">Android Development</p>
 			<p class="details">I tried making some android projects in java, but now i'm planning to learn React Native and build some apps with it.</p>
-			<button>Intermediate</button>
+			<button><b>Intermediate</b></button>
 			</div>
 		</div>
     </div>
