@@ -1,0 +1,70 @@
+body{
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.topnav{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.topnav a.active {
+    color:cyan;
+  }
+  
+.topnav-right {
+    float: right;
+  }
+.intro{ 
+    text-align: "center";
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position:absolute; 
+    top: 40px; 
+    bottom:0; 
+    right:0; 
+    left:0;
+}
+.intro .inintro {
+    max-width: 900px;
+    background-color: #252627;
+    box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
+    padding: 50px;
+    position: relative;
+    top: 10px;
+    left: 15%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.intro h1 {
+    font-size: 10rem;
+    z-index: 0;
+    opacity: .1;
+}
+
+.intro .inintro p {
+    font-size: 1.3rem;
+    color: #BEBEBE;
+}
+
+.introimg img{
+    height: 20%;
+    width: 20%;
+    float: right;
+    right: 2%;
+    position: relative;
+    top: 280px;
+}
